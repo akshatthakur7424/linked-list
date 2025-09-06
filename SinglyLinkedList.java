@@ -11,6 +11,12 @@ public class SinglyLinkedList {
             this.data = data;
             this.next = null;
         }
+
+        // constructor with data as well as next
+        Node(String data, Node next) {
+            this.data = data;
+            this.next = next;
+        }
     }
 
     // add node - first, last and between
